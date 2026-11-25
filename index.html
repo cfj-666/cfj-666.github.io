@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的博客</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #fafafa;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    header { margin-bottom: 48px; }
+    header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; }
+    header p { color: #777; font-size: 0.95rem; }
+    .post-list { list-style: none; }
+    .post-list li {
+      padding: 16px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .post-list li:last-child { border-bottom: none; }
+    .post-list a {
+      color: #1a73e8;
+      text-decoration: none;
+      font-size: 1.05rem;
+    }
+    .post-list a:hover { text-decoration: underline; }
+    .post-list .date {
+      display: block;
+      color: #999;
+      font-size: 0.82rem;
+      margin-top: 4px;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+      color: #aaa;
+      font-size: 0.82rem;
+    }
+    footer a { color: #888; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>我的博客</h1>
+    <p>记录学习、项目与生活</p>
+  </header>
+
+  <ul class="post-list">
+    <li>
+      <a href="#">第一篇文章标题</a>
+      <span class="date">2026-11-25</span>
+    </li>
+    <li>
+      <a href="#">第二篇文章标题</a>
+      <span class="date">2026-11-20</span>
+    </li>
+    <li>
+      <a href="#">第三篇文章标题</a>
+      <span class="date">2026-11-10</span>
+    </li>
+  </ul>
+
+  <footer>
+    <p>© 2026 我的博客 · 由 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> 托管</p>
+  </footer>
+
+</body>
+</html>
